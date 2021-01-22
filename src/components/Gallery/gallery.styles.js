@@ -55,18 +55,30 @@ const useStyles = createUseStyles({
       theme
     }) => theme.dark.background
   },
+  title: {
+    color: ({
+      theme
+    }) => theme.dark.primary
+  },
+  user: {
+    fontWeight: 900,
+    paddingRight: ({
+      theme
+    }) => theme.spacing,
+    color: ({
+      theme
+    }) => theme.dark.primary
+  },
   footer: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
     padding: ({
       theme
     }) => theme.spacing,
     background: ({
       theme
     }) => theme.dark.background
-  },
-  title: {
-    color: ({
-      theme
-    }) => theme.dark.primary
   },
   '@keyframes zoomIn': {
     from: {

@@ -28,7 +28,7 @@ const Gallery = () => {
   }, []);
 
   const closeModal = () => setModal(null);
-  const openModal = ({ images, title, index, url }) => {
+  const openModal = ({ images, title, index, url, user = {} }) => {
     setModal(
       <Modal open onClose={() => closeModal()}>
         <header className={classes.header}>
@@ -43,7 +43,14 @@ const Gallery = () => {
           style={{ background: random_rgba(index, 0.8) }}
         />
         <footer className={classes.footer}>
-          <Share url={images.fixed_height_downsampled.url} title={title} />
+            <a
+              className={classes.user}
+              href={user.profile_url ?? '#'}
+              target="_blank"
+            >
+              @{user.display_name ?? 'anonymous'}
+            </a>
+          <Share url={images.fixed_height_downsampled.url} />
         </footer>
       </Modal>
     );
@@ -51,11 +58,11 @@ const Gallery = () => {
 
   return (
     <div className={classes.wrapper} data-testid="gallery">
-      {gifs.map(({ images, id, title, url }, index) => (
+      {gifs.map(({ images, id, title, url, user }, index) => (
         <div className={classes.imageContainer} key={id} data-testid="image-container">
           <button
             className={classes.button}
-            onClick={() => openModal({ images, title, index, url })}
+            onClick={() => openModal({ images, title, index, url, user })}
             data-testid="button-open-modal"
           >
             <picture>

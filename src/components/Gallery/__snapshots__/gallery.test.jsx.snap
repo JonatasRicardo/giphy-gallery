@@ -3,11 +3,11 @@
 exports[`should match snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="wrapper-0-2-1 wrapper-d0-0-2-10"
+    class="wrapper-0-2-1 wrapper-d0-0-2-11"
     data-testid="gallery"
   >
     <div
-      class="imageContainer-0-2-2 imageContainer-d1-0-2-11"
+      class="imageContainer-0-2-2 imageContainer-d1-0-2-12"
       data-testid="image-container"
     >
       <button
@@ -26,7 +26,7 @@ exports[`should match snapshot 1`] = `
       </button>
     </div>
     <div
-      class="imageContainer-0-2-2 imageContainer-d1-0-2-11"
+      class="imageContainer-0-2-2 imageContainer-d1-0-2-12"
       data-testid="image-container"
     >
       <button
@@ -45,7 +45,7 @@ exports[`should match snapshot 1`] = `
       </button>
     </div>
     <div
-      class="imageContainer-0-2-2 imageContainer-d1-0-2-11"
+      class="imageContainer-0-2-2 imageContainer-d1-0-2-12"
       data-testid="image-container"
     >
       <button
@@ -64,7 +64,7 @@ exports[`should match snapshot 1`] = `
       </button>
     </div>
     <div
-      class="imageContainer-0-2-2 imageContainer-d1-0-2-11"
+      class="imageContainer-0-2-2 imageContainer-d1-0-2-12"
       data-testid="image-container"
     >
       <button
@@ -83,7 +83,7 @@ exports[`should match snapshot 1`] = `
       </button>
     </div>
     <div
-      class="imageContainer-0-2-2 imageContainer-d1-0-2-11"
+      class="imageContainer-0-2-2 imageContainer-d1-0-2-12"
       data-testid="image-container"
     >
       <button
@@ -102,7 +102,7 @@ exports[`should match snapshot 1`] = `
       </button>
     </div>
     <div
-      class="imageContainer-0-2-2 imageContainer-d1-0-2-11"
+      class="imageContainer-0-2-2 imageContainer-d1-0-2-12"
       data-testid="image-container"
     >
       <button
