@@ -16,7 +16,7 @@ const copyToClipboard = str => {
   el.style.left = '-9999px';
   document.body.appendChild(el);
   el.select();
-  document.execCommand('copy');
+  if (document.execCommand) document.execCommand('copy');
   document.body.removeChild(el);
 };
 
@@ -28,8 +28,8 @@ const Share = ({
     const classes = useStyles({ theme });
 
     const copy = () => {
-      copyToClipboard(url)
-      setCopyFeedback(true);
+        copyToClipboard(url)
+        setCopyFeedback(true);
     }
 
     useEffect(() => {
@@ -40,7 +40,12 @@ const Share = ({
 
     return (
       <div className={classes.share}>
-        <button className={classes.copyButton} onClick={copy} disabled={copyFeedback}>
+        <button
+          className={classes.copyButton}
+          onClick={copy}
+          disabled={copyFeedback}
+          data-testid="copy-button"
+        >
           {copyFeedback ? 'Link Copied' : 'Copy Link'}
         </button>
       </div>

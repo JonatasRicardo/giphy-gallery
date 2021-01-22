@@ -50,12 +50,13 @@ const Gallery = () => {
   };
 
   return (
-    <div className={classes.wrapper}>
+    <div className={classes.wrapper} data-testid="gallery">
       {gifs.map(({ images, id, title, url }, index) => (
-        <div className={classes.imageContainer} key={id}>
+        <div className={classes.imageContainer} key={id} data-testid="image-container">
           <button
             className={classes.button}
             onClick={() => openModal({ images, title, index, url })}
+            data-testid="button-open-modal"
           >
             <picture>
               <img

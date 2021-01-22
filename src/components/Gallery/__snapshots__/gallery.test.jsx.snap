@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper-0-2-1 wrapper-d0-0-2-10"
+    data-testid="gallery"
+  >
+    <div
+      class="imageContainer-0-2-2 imageContainer-d1-0-2-11"
+      data-testid="image-container"
+    >
+      <button
+        class="button-0-2-3"
+        data-testid="button-open-modal"
+      >
+        <picture>
+          <img
+            alt="Smash Feel The Bern GIF by Bernie Sanders"
+            class="image-0-2-4"
+            height="100"
+            src="https://media0.giphy.com/media/UWV1KGPpqErVzTT4Da/200_d.gif?cid=a875d0fe7j69xndyjp78vsa0iz6q2gc0qwf3obw63av8fhxt&rid=200_d.gif"
+            width="127.5"
+          />
+        </picture>
+      </button>
+    </div>
+    <div
+      class="imageContainer-0-2-2 imageContainer-d1-0-2-11"
+      data-testid="image-container"
+    >
+      <button
+        class="button-0-2-3"
+        data-testid="button-open-modal"
+      >
+        <picture>
+          <img
+            alt="Peace Out Wow GIF by Olympics"
+            class="image-0-2-4"
+            height="100"
+            src="https://media1.giphy.com/media/KoEVUJfIbuMdG7XPSw/200_d.gif?cid=a875d0fe7j69xndyjp78vsa0iz6q2gc0qwf3obw63av8fhxt&rid=200_d.gif"
+            width="100"
+          />
+        </picture>
+      </button>
+    </div>
+    <div
+      class="imageContainer-0-2-2 imageContainer-d1-0-2-11"
+      data-testid="image-container"
+    >
+      <button
+        class="button-0-2-3"
+        data-testid="button-open-modal"
+      >
+        <picture>
+          <img
+            alt="Taking Picture Photography GIF by Wikipedia"
+            class="image-0-2-4"
+            height="100"
+            src="https://media2.giphy.com/media/ESDrZTpgTXRF8Dbyfv/200_d.gif?cid=a875d0fe7j69xndyjp78vsa0iz6q2gc0qwf3obw63av8fhxt&rid=200_d.gif"
+            width="127.5"
+          />
+        </picture>
+      </button>
+    </div>
+    <div
+      class="imageContainer-0-2-2 imageContainer-d1-0-2-11"
+      data-testid="image-container"
+    >
+      <button
+        class="button-0-2-3"
+        data-testid="button-open-modal"
+      >
+        <picture>
+          <img
+            alt="Watching The Tea GIF by MOODMAN"
+            class="image-0-2-4"
+            height="100"
+            src="https://media4.giphy.com/media/IdTUJAGPRDR7en4z9B/200_d.gif?cid=a875d0fe7j69xndyjp78vsa0iz6q2gc0qwf3obw63av8fhxt&rid=200_d.gif"
+            width="56.5"
+          />
+        </picture>
+      </button>
+    </div>
+    <div
+      class="imageContainer-0-2-2 imageContainer-d1-0-2-11"
+      data-testid="image-container"
+    >
+      <button
+        class="button-0-2-3"
+        data-testid="button-open-modal"
+      >
+        <picture>
+          <img
+            alt="Utah Jazz Slow Clap GIF by NBA"
+            class="image-0-2-4"
+            height="100"
+            src="https://media2.giphy.com/media/l378o7dYnoHlgH4ha/200_d.gif?cid=a875d0fe7j69xndyjp78vsa0iz6q2gc0qwf3obw63av8fhxt&rid=200_d.gif"
+            width="178"
+          />
+        </picture>
+      </button>
+    </div>
+    <div
+      class="imageContainer-0-2-2 imageContainer-d1-0-2-11"
+      data-testid="image-container"
+    >
+      <button
+        class="button-0-2-3"
+        data-testid="button-open-modal"
+      >
+        <picture>
+          <img
+            alt="We Did It Congratulations GIF by chuber channel"
+            class="image-0-2-4"
+            height="100"
+            src="https://media0.giphy.com/media/U5aTN7dX9aFrr2uuj8/200_d.gif?cid=a875d0fe7j69xndyjp78vsa0iz6q2gc0qwf3obw63av8fhxt&rid=200_d.gif"
+            width="178"
+          />
+        </picture>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

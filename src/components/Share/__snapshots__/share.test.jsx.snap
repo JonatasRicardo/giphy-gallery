@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="share-0-2-1"
+  >
+    <button
+      class="copyButton-0-2-2 copyButton-d0-0-2-3"
+      data-testid="copy-button"
+    >
+      Copy Link
+    </button>
+  </div>
+</DocumentFragment>
+`;

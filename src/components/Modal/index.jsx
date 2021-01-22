@@ -29,18 +29,19 @@ const GalleryModal = ({
     };
 
     return (
-        <div className={`${classes.modal} ${['', 'is-open'][Number(show)]}`} role="dialog" data-id="modal">
+        <div className={`${classes.modal} ${['', 'is-open'][Number(show)]}`} role="dialog" data-testid="modal">
             <div className={classes.modalBody} >
                 <button
                   className={classes.close}
                   onClick={closeModal}
+                  data-testid="button-close-modal"
                 >
                   Close
                 </button>
                 <div className={classes.spinner}><Spinner /></div>
                 <div className={classes.content}>{children}</div>
             </div>
-            <div className={classes.modalOverlay} onClick={closeModal} />
+            <div className={classes.modalOverlay} onClick={closeModal} data-testid="overlay-modal" />
         </div>
     );
 }
